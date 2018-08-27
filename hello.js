@@ -15,6 +15,8 @@ compare('aaa', 'aab')
 compare('aaa', 'baa')
 compare('aaa', 'aa0')
 compare('aaa', 'Aaa')
+compare('aaa', '123')
+compare('000', '123')
 
-const array = ['aaa', 'aa', 'aaaaa', 'aab', 'aa0', 'Aaa', 'baa']
+const array = ['aaa', 'aa', 'aaaaa', 'aab', 'aa0', 'Aaa', 'baa', '123', '000']
 console.log(array.sort())
